@@ -36,6 +36,12 @@ git clone https://github.com/bitcoin-core/HWI.git
 cd HWI
 ```
 
+## Device dependencies
+
+### Trezor
+
+`pip install mnemonic libusb1 typing-extensions`
+
 ## Usage
 
 To use, first enumerate all devices and find the one that you want to use with
